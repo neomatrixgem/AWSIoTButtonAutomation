@@ -76,7 +76,7 @@ def delete_stack():
 
 def printer_notworking():
     message = 'Please fix the printer its not working',
-    response = sns.publish(TopicArn="arn:aws:sns:eu-west-1:xxxxxxxxxxxx:aws-iot-button-sns-topic-staffuniv",
+    response = sns.publish(TopicArn="arn:aws:sns:eu-west-1:xxxxxxxxxxxx:aws-iot-button-sns-topic-xxxxxx",
     Subject="PrinterNotWorking", Message="Printer is not working")
     return(response)
 
